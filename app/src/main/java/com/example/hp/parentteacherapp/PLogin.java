@@ -78,6 +78,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class PLogin extends AppCompatActivity implements View.OnClickListener {
+    public static final String MY_PREFS ="My Prefrences" ;//for shared preferences
     Button button_login;
     EditText editText_password, editText_email;
     TextView textView_forgot;
